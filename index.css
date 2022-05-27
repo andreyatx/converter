@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.main {
+  max-width: 550px;
+  margin: 0 auto;
+}
+#background {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    45deg,
+    hsl(194deg 70% 64%) 0%,
+    hsl(205deg 76% 61%) 10%,
+    hsl(217deg 82% 58%) 20%,
+    hsl(228deg 88% 55%) 30%,
+    hsl(239deg 94% 53%) 40%,
+    hsl(251deg 100% 50%) 50%,
+    hsl(258deg 100% 50%) 60%,
+    hsl(265deg 100% 50%) 70%,
+    hsl(272deg 100% 50%) 80%,
+    hsl(279deg 100% 50%) 90%,
+    hsl(286deg 100% 50%) 100%
+  );
+}
+
+.background-header {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#number-to-convert {
+  background: transparent;
+  font-size: 50px;
+  line-height: 24px;
+  width: 211px;
+  text-align: center;
+
+  color: #ffffff;
+  outline: none;
+}
+
+#conversion-results {
+  padding: 40px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fbf7ee;
+}
+
+.result {
+  max-width: 346px;
+}
+
+.result-title {
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #1a1921;
+}
