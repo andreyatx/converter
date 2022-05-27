@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main" id="background">
+        <h1 class="background-header">Metric/Imperial unit conversion</h1>
+        <input
+          type="text"
+          pattern="\d*"
+          maxlength="6"
+          id="number-to-convert"
+          style="border: none"
+          autofocus="true"
+          placeholder="10"
+        />
+      </div>
+      <div class="main" id="conversion-results">
+        <div class="result">
+          <div id="length-conv">
+            <h2 class="result-title" id="length-header">Length (Meter/Feet)</h2>
+            <p id="length-text">
+              0 meters = 0.000 feet <br />0 feet = 0.000 meters
+            </p>
+          </div>
+          <div id="volume-conv">
+            <h2 class="result-title" id="volume-header">
+              Volume (Liters/Gallons)
+            </h2>
+            <p id="volume-text">
+              0 liters = 0.000 gallons <br />
+              0 gallons = 0.000 liters
+            </p>
+          </div>
+          <div id="mass-conv">
+            <h2 class="result-title" id="mass-header">
+              Mass (Kilograms/Pounds)
+            </h2>
+            <p id="mass-text">
+              0 kilos = 0.000 pounds <br />
+              0 pounds = 0.000 kilos
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
